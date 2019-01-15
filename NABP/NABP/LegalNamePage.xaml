@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+               xmlns:local="clr-namespace:NABP" 
+             x:Class="NABP.LegalNamePage">
+    <ScrollView Padding="10,-70,10,10" x:Name="scrollView" Orientation="Vertical"  VerticalOptions="FillAndExpand">
+ <StackLayout     x:Name="firstPage"    Orientation="Vertical"   VerticalOptions="FillAndExpand"  Padding="0,100,0,0">
+    <ic:CircleImage    WidthRequest="80" HeightRequest="80"
+                        Aspect="AspectFill" 
+                        Source="nabp.jpg" 
+                        VerticalOptions="Center" HorizontalOptions="Center">
+            </ic:CircleImage>
+            
+            <Label Margin="20" Text="Legal Name" HorizontalOptions="Center"
+                   VerticalOptions="Center"></Label>
+            
+            <Label  Text=" * Indicates required field"
+                    HorizontalOptions="StartAndExpand"
+                   VerticalOptions="Center"  
+                    TextColor="Red"></Label>
+            
+            <Label   Margin="10,10,0,0" Text="Prefix" TextColor="Gray"></Label>
+            <Picker   Margin="10,-8,10,0" >
+            <Picker.Items>
+                <x:String> Dr.</x:String>
+                  <x:String> Miss</x:String>
+                  <x:String> Mr.</x:String>
+                  <x:String> Ms.</x:String>
+                        <x:String>Sir</x:String>
+                        <x:String>Sr</x:String>
+                        <x:String> Sr</x:String>
+          </Picker.Items>
+            </Picker>
+            
+            
+            <Label   Margin="10,10,0,0" Text="First Name * " TextColor="Gray"></Label>
+            <Entry   Margin="10,-8,10,0"  x:Name="firstName" ></Entry>
+            <Label x:Name="ErrorName" TextColor="Red"></Label>
+            
+            
+             <Label   Margin="10,10,0,0" Text="Middle Name" TextColor="Gray"></Label>
+            <Entry Margin="10,-8,10,0" ></Entry>
+            
+            
+            
+             <Label   Margin="10,10,0,0" Text="Last Name * " TextColor="Gray"></Label>
+            <Entry Margin="10,-8,10,0" x:Name="lastName"></Entry>
+             <Label x:Name="LastName" TextColor="Red"></Label>
+            
+             <Label   Margin="10,10,0,0" Text="Suffix" TextColor="Gray" ></Label>
+            <Entry Margin="10,-8,10,0"  ></Entry>
+            
+            
+            
+    <Label   Margin="10,10,0,0" Text="Gender *" TextColor="Gray" ></Label>
+            <Picker   Margin="10,-8,10,0"  x:Name="gender">
+            <Picker.Items>
+                <x:String> Female</x:String>
+                  <x:String> Male</x:String>
+                  <x:String> Third Gender</x:String>
+            </Picker.Items>
+            </Picker>
+             <Label x:Name="genderType" TextColor="Red"></Label> 
+        
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" >  
+             <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" WidthRequest="200">  
+           <Button Text="Back" TextColor="Blue"  HorizontalOptions="Center" 
+                       ></Button>
+                </StackLayout>
+              
+             <StackLayout Orientation="Vertical" VerticalOptions="Center" >  
+        
+                <Button Text="Next" TextColor="Black" HorizontalOptions="Center" Clicked="Handle_Clicked"></Button> </StackLayout>
+     
+            </StackLayout>
+        
+            
+           
+            
+            
+            
+            
+          
+            
+         
+        </StackLayout>
+        </ScrollView>        
+</ContentPage>
+

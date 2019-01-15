@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+           xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="NABP.TermsOfServicePage">
+    
+    <ContentPage.Content>
+        
+        
+      <!--  <WebView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                 Source="https://books.wwnorton.com/books/detail.aspx?ID=5348"
+                ></WebView>-->
+        
+        
+       <StackLayout>
+        <Label Margin="40"  Text="Terms and Conditions" VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center" FontSize="Large"></Label>
+     <Image Source="https://previews.123rf.com/images/faysalfarhan/faysalfarhan1605/faysalfarhan160500504/56060458-terms-and-conditions-pages-icon-white-square-button.jpg" ></Image>
+            
+            
+        
+            <StackLayout
+            Orientation="Horizontal" VerticalOptions="Center" >  
+             <StackLayout Padding="100"
+            Orientation="Vertical" VerticalOptions="FillAndExpand" WidthRequest="200">  
+          
+            
+            
+ <!--  
+        <Frame 
+            BackgroundColor="Teal" 
+            HasShadow="False" 
+            CornerRadius="4" 
+            Padding="0,15,0,15" 
+            VerticalOptions="CenterAndExpand">
+                <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Vertical" Spacing="10">
+                    <Button 
+                        Text="text" 
+                                Clicked="Handle_Clicked_1"
+                        FontSize="Medium" 
+                                
+                 
+                        TextColor="White" 
+                        FontAttributes="Bold" />
+                        </StackLayout>
+                        
+                        
+                        
+        </Frame>
+    </StackLayout>   
+            -->
+            
+            
+            
+
+ 
+               <Button Text="Decline" TextColor="Blue"  HorizontalOptions="Center"></Button>
+                </StackLayout>
+              
+            
+            
+            
+             <StackLayout Orientation="Vertical" VerticalOptions="Center" >  
+        
+                <Button Text="Approve" TextColor="Black" HorizontalOptions="Center" 
+                        Clicked="Handle_Clicked"></Button> </StackLayout>
+     
+  <!--          </StackLayout>-->
+        
+        
+            </StackLayout> 
+        
+         </StackLayout>
+    </ContentPage.Content>
+       
+</ContentPage>

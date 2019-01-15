@@ -1,0 +1,6 @@
+drawable/arrow_down.xml;drawable/arrow_down.xml
+drawable-hdpi/arrow_down.png;drawable-hdpi/arrow_down.png
+drawable-xhdpi/arrow_down.png;drawable-xhdpi/arrow_down.png
+drawable-xxhdpi/arrow_down.png;drawable-xxhdpi/arrow_down.png
+drawable-xxxhdpi/arrow_down.png;drawable-xxxhdpi/arrow_down.png
+values/input_styles.xml;values/input_styles.xml

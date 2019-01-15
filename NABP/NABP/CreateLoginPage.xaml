@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+              xmlns:local="clr-namespace:NABP" x:Class="NABP.CreateLoginPage"
+              xmlns:ic="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin" >
+             x:Class="NABP.CreateLoginPage">
+ 
+    
+    
+    <ScrollView x:Name="scrollView" Orientation="Vertical"  VerticalOptions="FillAndExpand">
+        
+    <Grid >
+            <Grid.RowDefinitions >
+                
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition  Height="50" ></RowDefinition>
+            </Grid.RowDefinitions>
+          <StackLayout Grid.Row="0" BackgroundColor="Gray" VerticalOptions="Start" HeightRequest="50" 
+                  HorizontalOptions= "FillAndExpand" Padding="0,0,0,0"  > 
+            
+         <Label Text="NABP Welcome" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" 
+                Margin="0,15" TextColor="White"  ></Label>
+         </StackLayout> 
+            
+  <StackLayout Grid.Row="1" x:Name="firstPage"    Orientation="Vertical"  
+              VerticalOptions="FillAndExpand" 
+              Padding="0,100,0,0">
+  
+        <ic:CircleImage WidthRequest="100" HeightRequest="100"
+                        Aspect="AspectFill" 
+                        Source="nabp.jpg" 
+                        VerticalOptions="Center" HorizontalOptions="Center">
+            </ic:CircleImage>
+        
+      <Label VerticalOptions="Center" HorizontalOptions="Center" Margin="30" HorizontalTextAlignment="Center"
+             Text="Create Login "  FontSize="Large"> </Label>
+      <Label VerticalOptions="Center" HorizontalOptions="Center" Margin="10" HorizontalTextAlignment="Center"
+             Text="Please enter your email address"  FontSize="Medium"> </Label> 
+            
+          <Entry Margin="20" x:Name="mailAddress" Placeholder="Email Address" 
+                 Keyboard="Email"  HeightRequest="45" ></Entry>
+  <Label x:Name="ErrorLabel" TextColor="Red"></Label>
+   
+     
+  <Button  Margin="20"    x:Name="NEXT" BackgroundColor="Red"  HeightRequest="45" Text="Next"   
+              TextColor="White"  Clicked="Handle_Clicked" >  </Button>
+       </StackLayout >
+         
+            
+            
+<StackLayout Grid.Row="2"  Orientation="Horizontal" BackgroundColor="Gray"  Spacing="10"
+             VerticalOptions="End" HeightRequest="50" 
+                  HorizontalOptions= "FillAndExpand" Padding="0,0,0,0" > 
+                
+                
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" >
+                        <Label   Text="National Board of Pharmacy"></Label>  </StackLayout>
+                   
+                    
+                       <StackLayout HorizontalOptions="Center" VerticalOptions="Center"  >
+                        <Label Text="welcome yo website"></Label> </StackLayout>
+                
+                
+                <!--<Grid ColumnSpacing="40" >
+               <Grid.ColumnDefinition> 
+                     <ColumnDefinition Width="100"></ColumnDefinition>
+                     <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinition>
+                    
+                    <StackLayout Orientation="Vertical" Grid.Column="0">
+                        <Label   Text="National Board of Pharmacy"></Label>  </StackLayout>
+                    
+                    
+                       <StackLayout Orientation="Vertical"  Grid.Column="1">
+                        <Label Text="welcome yo website"></Label> </StackLayout>
+                    
+                    
+                </Grid>-->
+                
+            
+            
+            </StackLayout> 
+               </Grid>
+        </ScrollView>
+</ContentPage>

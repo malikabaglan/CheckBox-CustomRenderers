@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="NABP.CreateEprofilePage">
+     <ScrollView x:Name="scrollView" Orientation="Vertical"  VerticalOptions="FillAndExpand">
+        
+
+        
+        
+ <Grid  RowSpacing="40" ColumnSpacing="30" VerticalOptions="Center" HorizontalOptions="Center" >
+       <Grid.RowDefinitions >
+              
+        <RowDefinition Height="200" > </RowDefinition> 
+        </Grid.RowDefinitions>
+            
+     
+        <Grid.ColumnDefinitions> 
+                <ColumnDefinition Width="160"></ColumnDefinition>
+                  <ColumnDefinition Width="160"></ColumnDefinition>
+            
+        </Grid.ColumnDefinitions>
+        
+   <Button   Grid.Row="0" Grid.Column="0" Text="Create e-Profile"  
+            BackgroundColor="Silver"
+                TextColor="Black" Clicked="Handle_Clicked"/>
+            
+            
+            
+   <Label    Grid.Row="0" Grid.Column="1" Text="Publications"  VerticalTextAlignment="Center"  
+             HorizontalTextAlignment="Center"
+               BackgroundColor="Silver" TextColor="Black"/> 
+               
+         
+        </Grid>
+        </ScrollView>
+</ContentPage>
