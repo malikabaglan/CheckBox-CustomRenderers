@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{C3EE447D-D48B-4950-B482-D95ECE510039}|Default">
   <MonoDevelop.Ide.ItemProperties.NABP.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38BBF37B-1F02-4DE0-80F5-37B25E6AA19F" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NABP.iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NABP/CreateEprofilePage.xaml">
     <Files>
       <File FileName="NABP/TermsOfServicePage.xaml" Line="1" Column="1" />
-      <File FileName="NABP/LegalNamePage.xaml" Line="79" Column="12" />
+      <File FileName="NABP/LegalNamePage.xaml" Line="62" Column="28" />
       <File FileName="NABP.iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="NABP/CreateEprofilePage.xaml" Line="4" Column="48" />
+      <File FileName="NABP/CreateLoginPage.xaml" Line="86" Column="15" />
+      <File FileName="NABP/CreatePasswordPage.xaml" Line="70" Column="15" />
+      <File FileName="NABP/PasswordValidationBehavior.cs" Line="1" Column="1" />
+      <File FileName="NABP/TestPage.xaml" Line="6" Column="1" />
+      <File FileName="NABP/TestPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="NABP/MainPage.xaml" Line="17" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

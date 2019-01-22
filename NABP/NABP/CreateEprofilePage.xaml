@@ -23,7 +23,7 @@
    <Button   Grid.Row="0" Grid.Column="0" Text="Create e-Profile"  
             BackgroundColor="Silver"
                 TextColor="Black" Clicked="Handle_Clicked"/>
-            
+                   
             
             
    <Label    Grid.Row="0" Grid.Column="1" Text="Publications"  VerticalTextAlignment="Center"  

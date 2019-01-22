@@ -1,5 +1,5 @@
---cache=/Users/malikabaglan/Projects/NABP/NABP.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
---sim=/Users/malikabaglan/Projects/NABP/NABP.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/NABP.iOS.app
+--cache=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-cache
+--sim=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/NABP.iOS.app
 --executable=NABP.iOS
 --debug
 --nolink
@@ -9,10 +9,10 @@
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/malikabaglan/Projects/NABP/NABP.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
+--symbollist=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.1/mtouch-symbols.list
 --dsym=no
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
--r=/Users/malikabaglan/Projects/NABP/NABP/bin/Debug/netstandard2.0/NABP.dll
+-r=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/bin/Debug/netstandard2.0/NABP.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
@@ -206,7 +206,7 @@
 -r=/Users/malikabaglan/.nuget/packages/xlabs.platform/2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.dll
 -r=/Users/malikabaglan/.nuget/packages/xlabs.platform/2.0.5782/lib/Xamarin.iOS10/XLabs.Platform.iOS.dll
 -r=/Users/malikabaglan/.nuget/packages/xlabs.serialization/2.0.5782/lib/Xamarin.iOS10/XLabs.Serialization.dll
--r=/Users/malikabaglan/Projects/NABP/NABP/bin/Debug/netstandard2.0/NABP.dll
+-r=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/bin/Debug/netstandard2.0/NABP.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/malikabaglan/Projects/NABP/NABP.iOS/bin/iPhoneSimulator/Debug/NABP.iOS.exe
+--root-assembly=/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/bin/iPhoneSimulator/Debug/NABP.iOS.exe
 

@@ -1,0 +1,11 @@
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/bin/Debug/netstandard2.0/POCEntryCustomRenderer.deps.json
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/bin/Debug/netstandard2.0/POCEntryCustomRenderer.dll
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/bin/Debug/netstandard2.0/POCEntryCustomRenderer.pdb
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/POCEntryCustomRenderer.csproj.CoreCompileInputs.cache
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/POCEntryCustomRenderer.AssemblyInfoInputs.cache
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/POCEntryCustomRenderer.AssemblyInfo.cs
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/POCEntryCustomRenderer.dll
+/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer/obj/Debug/netstandard2.0/POCEntryCustomRenderer.pdb

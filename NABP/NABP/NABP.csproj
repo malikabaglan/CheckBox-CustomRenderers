@@ -23,5 +23,9 @@
   <ItemGroup>
     <Compile Remove="TermsOfServicePage.cs" />
     <Compile Remove="App.xaml.cs" />
+    <Compile Remove="TestPage.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="TestPage.xaml" />
   </ItemGroup>
 </Project>

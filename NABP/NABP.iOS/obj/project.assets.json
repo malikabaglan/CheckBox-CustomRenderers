@@ -1275,11 +1275,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/malikabaglan/Projects/NABP/NABP.iOS/NABP.iOS.csproj",
+      "projectUniqueName": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/NABP.iOS.csproj",
       "projectName": "NABP.iOS",
-      "projectPath": "/Users/malikabaglan/Projects/NABP/NABP.iOS/NABP.iOS.csproj",
+      "projectPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/NABP.iOS.csproj",
       "packagesPath": "/Users/malikabaglan/.nuget/packages/",
-      "outputPath": "/Users/malikabaglan/Projects/NABP/NABP.iOS/obj",
+      "outputPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.iOS/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/malikabaglan/.config/NuGet/NuGet.Config"
@@ -1293,8 +1293,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj": {
-              "projectPath": "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj"
+            "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj": {
+              "projectPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj"
             }
           }
         }

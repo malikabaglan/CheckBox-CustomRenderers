@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{EAC6D6F9-57CB-4272-B8AA-59767294ADDA}|Default">
+  <MonoDevelop.Ide.ItemProperties.POCEntryCustomRenderer.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38BBF37B-1F02-4DE0-80F5-37B25E6AA19F" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="POCEntryCustomRenderer/MainPage.xaml">
+    <Files>
+      <File FileName="POCEntryCustomRenderer/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="POCEntryCustomRenderer/MainPage.xaml" Line="11" Column="19" />
+      <File FileName="POCEntryCustomRenderer/RoundedEntry.cs" Line="11" Column="1" />
+      <File FileName="POCEntryCustomRenderer.iOS/RoundedEntryRenderer_Ios.cs" Line="28" Column="61" />
+      <File FileName="POCEntryCustomRenderer.Android/RoundedEntryRenderer_Droid.cs" Line="8" Column="83" />
+      <File FileName="POCEntryCustomRenderer.Android/Resources/values/colors.xml" Line="1" Column="1" />
+      <File FileName="POCEntryCustomRenderer.Android/Resources/layout/rounded_shape.xml" Line="17" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.POCEntryCustomRenderer.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/malikabaglan/Projects/POCEntryCustomRenderer/POCEntryCustomRenderer.Android/RoundedEntryRenderer_Droid.cs" relfile="POCEntryCustomRenderer.Android/RoundedEntryRenderer_Droid.cs" line="47" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

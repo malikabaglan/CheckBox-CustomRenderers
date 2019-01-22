@@ -1058,11 +1058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/malikabaglan/Projects/NABP/NABP.Android/NABP.Android.csproj",
+      "projectUniqueName": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.Android/NABP.Android.csproj",
       "projectName": "NABP.Android",
-      "projectPath": "/Users/malikabaglan/Projects/NABP/NABP.Android/NABP.Android.csproj",
+      "projectPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.Android/NABP.Android.csproj",
       "packagesPath": "/Users/malikabaglan/.nuget/packages/",
-      "outputPath": "/Users/malikabaglan/Projects/NABP/NABP.Android/obj",
+      "outputPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP.Android/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/malikabaglan/.config/NuGet/NuGet.Config"
@@ -1076,8 +1076,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj": {
-              "projectPath": "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj"
+            "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj": {
+              "projectPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj"
             }
           }
         }

@@ -608,11 +608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj",
+      "projectUniqueName": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj",
       "projectName": "NABP",
-      "projectPath": "/Users/malikabaglan/Projects/NABP/NABP/NABP.csproj",
+      "projectPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/NABP.csproj",
       "packagesPath": "/Users/malikabaglan/.nuget/packages/",
-      "outputPath": "/Users/malikabaglan/Projects/NABP/NABP/obj",
+      "outputPath": "/Users/malikabaglan/Projects/CheckBox-CustomRenderers/NABP/NABP/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
